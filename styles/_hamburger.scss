@@ -1,0 +1,80 @@
+.hamburger-icon {
+  float: right;
+  position: relative;
+  width: 28px;
+  height: 28px;
+  z-index: 10;
+}
+@media (min-width: 800px) {
+  .hamburger-icon{display: none};
+}
+.hamburger-icon:before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 28px;
+  height: 4px;
+  background-color: #00A1D6;
+  border-radius: 2px;
+  -webkit-transform-origin: 100% 0;
+      -ms-transform-origin: 100% 0;
+          transform-origin: 100% 0;
+  -webkit-transition: -webkit-transform .3s ease-out;
+  transition: -webkit-transform .3s ease-out;
+  -o-transition: transform .3s ease-out;
+  transition: transform .3s ease-out;
+  transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+}
+.hamburger-icon__middle {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 28px;
+  height: 4px;
+  background-color: #00A1D6;
+  border-radius: 2px;
+  -webkit-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  -webkit-transform-origin: right;
+      -ms-transform-origin: right;
+          transform-origin: right;
+}
+.hamburger-icon:after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  width: 28px;
+  height: 4px;
+  background-color: #00A1D6;
+  border-radius: 2px;
+  -webkit-transform-origin: 100% 100%;
+      -ms-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+  -webkit-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.hamburgerIcon__close-x:before {
+  -webkit-transform: rotate(-45deg) scaleX(1.1);
+      -ms-transform: rotate(-45deg) scaleX(1.1);
+          transform: rotate(-45deg) scaleX(1.1); 
+  background-color: #00A1D6;
+}
+.hamburgerIcon__close-x .hamburger-icon__middle {
+  opacity: 0;
+  -webkit-transform: scaleX(0);
+      -ms-transform: scaleX(0);
+          transform: scaleX(0);
+  /* background-color: #ff00ff; */
+}
+.hamburgerIcon__close-x:after {
+  -webkit-transform: rotate(45deg) scaleX(1.1);
+      -ms-transform: rotate(45deg) scaleX(1.1);
+          transform: rotate(45deg) scaleX(1.1);
+  background-color: #00A1D6;
+}
+
