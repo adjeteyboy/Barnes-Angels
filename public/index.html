@@ -15,34 +15,48 @@
 </head>
 <body>
   <header>
-    <img src="./assets/icons/new logo.png" alt="Barnes Angel logo" class="logo">
+    <img src="./assets/icons/blueLogo.png" alt="Barnes Angels logo" class="blueMobileLogo">
+    <img src="./assets/icons/whiteLogo.png" alt="Barnes Angels logo" class="whiteDesktopLogo">
     <div id="mobileMenu" class="mobile-menu">
       <ul>
         <li><a href="#">About</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Appointment</a></li>
-        <li><a href="#">Blog</a></li>
         <li><a href="#">Contact Us</a> </li>
       </ul>
+    </div>
+    <div id="desktopMenu">
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Appointment</a>
+        <a href="#" id="contactBtn">Contact Us</a> 
+      </nav>
+      
     </div>
     <div class="hamburger-icon" id="hamburgerIcon" onclick="toggleMenu()">
       <div class="hamburger-icon__middle"></div>
     </div>
   </header>
-  <div class="wrapper">
+  
     <section class="banner">
-      <p>You won't always be there, we will!</p>
-      <h1>Get expert, person-centred approach to keep seniors safe and sound at home</h1>
-      <div class="banner__img">
-          <img
-            sizes="(max-width: 611px) 100vw, 611px"
-            srcset="
-            ./assets/images/humanCrop_vowc9g_c_scale,w_320.png 320w,
-            ./assets/images/humanCrop_vowc9g_c_scale,w_436.png 436w,
-            ./assets/images/humanCrop_vowc9g_c_scale,w_533.png 533w,
-            ./assets/images/humanCrop_vowc9g_c_scale,w_611.png 611w"
-            src="./assets/images/humanCrop_vowc9g_c_scale,w_611.png"
-            alt="helping nurse and patient">
+      <div class="wrapper wrapper-banner">
+          <div class="banner__text">
+              <p>You won't always be there, we will!</p>
+              <h1>Get expert, person-centred approach to keep seniors safe and sound at home</h1>
+          </div>
+          <div class="banner__img">
+              <img
+                sizes="(max-width: 611px) 100vw, 611px"
+                srcset="
+                ./assets/images/humanCrop_vowc9g_c_scale,w_320.png 320w,
+                ./assets/images/humanCrop_vowc9g_c_scale,w_436.png 436w,
+                ./assets/images/humanCrop_vowc9g_c_scale,w_533.png 533w,
+                ./assets/images/humanCrop_vowc9g_c_scale,w_611.png 611w"
+                src="./assets/images/humanCrop_vowc9g_c_scale,w_611.png"
+                alt="helping nurse and patient">
+          </div>
       </div>
     </section>
 
@@ -50,7 +64,7 @@
         <main>
             <a id="main-content"></a>
             <section class="services">
-              <img class="services__logo" src="./assets/icons/new logo.png" alt="Barnes Angel logo">
+              <img class="services__logo" src="./assets/icons/blueLogo.png" alt="Barnes Angel logo">
               <h2>Services Overview</h2>
               <p class="services__paragraph">Barnes Angel's programs ensures dignified and compassionate care for your loved one so they can remain independent in their home.</p>
         
@@ -101,24 +115,29 @@
 
     <section class="features">
       <h2>That's why our caretakers are here for you</h2>
-      <img src="./assets/images/senior_in_wheelchair.jpg" alt="senior in wheelchair" class="features__main-img">
-      <section>
-        <h3>Our caretakers will...</h3>
-        <ul>
-          <li>Assess your medical situation and care</li>
-          <li>Make sure you're getting the treatment you deserve</li>
-          <li>Teach you about your conditions to make positive decisions</li>
-        </ul>
-        <div class="features__second-img">
-          <img 
-          sizes="(max-width: 380px) 280px"
-          srcset="
-          ./assets/images/playing-Cards/playing-Cards,w200.jpg 200w,
-          ./assets/images/playing-Cards/playing-Cards,w400.jpg 600w"
-          src="./assets/images/424x283-Playing-Cards_i2akrh_c_scale,w_424.jpg"
-          alt="smiling and playing cards">
+      <div id="features__grid-container">
+        <img src="./assets/images/senior_in_wheelchair.jpg" alt="senior in wheelchair" class="features__main-img">
+        <section>
+          <h3>Our caretakers will...</h3>
+          <ul>
+            <li>Assess your medical situation and care</li>
+            <li>Make sure you're getting the treatment you deserve</li>
+            <li>Teach you about your conditions to make positive decisions</li>
+          </ul>
+          <div class="features__second-img">
+            <img 
+            sizes="(max-width: 380px) 280px"
+            srcset="
+            ./assets/images/playing-Cards/playing-Cards,w200.jpg 200w,
+            ./assets/images/playing-Cards/playing-Cards,w400.jpg 600w"
+            src="./assets/images/424x283-Playing-Cards_i2akrh_c_scale,w_424.jpg"
+            alt="smiling and playing cards">
+          </div>
+        </section>
+        <div class="features__grid-second-img">
+          <img src="./assets/images/424x283-Playing-Cards_i2akrh_c_scale,w_424.jpg" alt="smiling and playing cards">
         </div>
-      </section>
+      </div>
       
       
     </section>
@@ -137,35 +156,37 @@
     </div>
 
     <footer>
-      <div class="footer__logo">
-        <img src="/public/assets/icons/new logo white.png" alt="Barnes Angels logo">
-      </div>
-      <div class="footer-nav">
-        <ul>
-          <li>About</li>
-          <li>Services</li>
-          <li>Appointment</li>
-          <li>Contact Us</li>
-        </ul>
-      </div>
-      <div class="footer-address">
-        <h4>Get Care</h4>
-        <ul>
-          <li>We're available 9am - 5pm</li>
-          <li>Tel: 555.555.5555</li>
-          <li>2079 Jerry Toth Drive</li>
-          <li>Unalaska</li>
-          <li>Alaska 99685</li>
-          <li>US</li>
-        </ul>
-      </div>
-      <div class="social">
-        <span class="facebook"><i class="fab fa-facebook-f"></i></span>
-        <span class="twitter"><i class="fab fa-twitter"></i></span>
-      </div>
-      <div class="footer__tab">&copy; 2019 Barnes Angels</div>
+      <div class="wrapper" id="footer__flex">
+          <div class="footer__logo">
+            <img src="/public/assets/icons/whiteLogo.png" alt="Barnes Angels logo">
+          </div>
+          <div class="footer-nav">
+            <ul>
+              <li>About</li>
+              <li>Services</li>
+              <li>Appointment</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+          <div class="footer-address">
+            <h4>Get Care</h4>
+            <ul>
+              <li>We're available 9am - 5pm</li>
+              <li>Tel: 555.555.5555</li>
+              <li>2079 Jerry Toth Drive</li>
+              <li>Unalaska</li>
+              <li>Alaska 99685</li>
+              <li>US</li>
+            </ul>
+          </div>
+          <div class="social">
+            <span class="facebook"><i class="fab fa-facebook-f"></i></span>
+            <span class="twitter"><i class="fab fa-twitter"></i></span>
+          </div>
+        </div>
+        <div class="footer__tab"><div class="wrapper">&copy; 2019 Barnes Angels</div></div>
     </footer>
-  </div>
+  
   <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
   <!-- <script defer src="https://www.gstatic.com/firebasejs/6.6.1/firebase-auth.js"></script> -->
   <!-- <script defer src="https://www.gstatic.com/firebasejs/6.6.1/firebase-firestore.js"></script> -->

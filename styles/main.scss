@@ -1,22 +1,10 @@
 @import "./normalize";
 
-body {
-  font-family: 'Montserrat', sans-serif;
-}
-// 100: Regular 400, Medium 500, Semi-Bold 600, Bold 700
-
-img {
-  max-width: 100%;
-  max-height: 100%;
-}
+@import "./body";
 
 @import "./header";
 @import "./hamburger";
-
-.wrapper {
-  margin: auto;
-  max-width: 1400px;
-}
+@import "./wrapper";
 
 @import "./banner";
 

@@ -1,25 +1,45 @@
 .banner {
   background: linear-gradient(0deg, rgba(65,191,239,0.9) 19%, rgba(0,90,156,0.9) 100%);
-  padding: 123px 15px 0 15px;
-  // position: relative;
-  
+  padding: 246px 15px 0 15px;
+  @include for-desktops {
+    background: linear-gradient(0deg, rgba(65,191,239,0.8) 19%, rgba(0,90,156,0.8) 100%), url(/public/assets/images/banner__bg.jpg);
+    background-size: cover;
+    
+  }
+
+  .banner__text {
+    @include for-desktops {
+      order: 1;
+      width: 700px;
+      margin-right: 160px;
+    }
+  }
   
   p {
     color: #87DDFF;
-    font-size: 20px;
-    width: 285px;
+    font-size: 24px;
+    // width: 285px;
+    max-width: 537px;
     font-weight: 600;
     line-height: 150%;
-    margin: 0 0 31px 0;
-    
+    margin: 0 0 25px 0;
+    @include for-desktops {
+      font-size: 36px;
+      margin-bottom: 15px;
+    }
   }
 
   h1 {
     margin: 0;
     color: #fff;
     line-height: 150%;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 50px;
+    max-width: 590px;
+    @include for-large-displays {
+      font-weight: 700;
+      // font-size: 48px;
+    }
   }
 
   .banner__img {
@@ -28,5 +48,10 @@
     margin-left: -15px;
     bottom: 0;
     right: 0;
+    @include for-desktops {
+      display: flex;
+      justify-content: flex-end;
+      transform: translateY(12px);
+    }
   }
 }

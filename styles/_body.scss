@@ -1,0 +1,22 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+// 100: Regular 400, Medium 500, Semi-Bold 600, Bold 700
+
+// MY MIXINS
+@mixin for-mobiles {
+  @media(max-width: 999px) {@content;}
+}
+
+@mixin for-desktops {
+  @media (min-width: 1000px) {@content;}
+}
+
+@mixin for-large-displays {
+  @media (min-width: 1200px) {@content;}
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}

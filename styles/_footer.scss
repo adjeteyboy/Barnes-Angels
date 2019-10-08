@@ -6,6 +6,17 @@ footer {
   color: #fff;
   padding: 108px $padding 0 $padding;
 
+  #footer__flex {
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+
+    & > * {
+      margin-right: 130px;
+    }
+  }
+
   & .footer__logo {
     width: 250px
   }
@@ -13,8 +24,6 @@ footer {
     width: 100%;
     height: auto;
   }
-
-
 
   & h4 {
     font-weight: 600;

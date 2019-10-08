@@ -7,11 +7,19 @@
     font-weight: 500;
     max-width: 250px;
     font-size: 24px;
+
+    @include for-desktops {
+      font-size: 36px;
+    }
   }
 
   & p {
     font-weight: 600;
     max-width: 230px;
+
+    @include for-desktops {
+      font-size: 24px;
+    }
   }
 
   & h3, p {
@@ -19,6 +27,7 @@
     line-height: 120%;
     margin: 0 auto;
     margin-bottom: 30px;
+    max-width: 788px;
   }
 
   & .subscribe__form {
@@ -34,7 +43,8 @@
 
   & .subscribe__form input{
     padding-left: 10px;
-    width: 197px;
+    // width: 197px;
+    width: 350px;
   }
 
   & .subscribe__form button {
@@ -51,10 +61,4 @@
   margin-top: 20px;
   margin-bottom: 0;
   font-size: 1rem;
-  // margin-top: 50px;
-  // background: #6db8ce;
-  // border-radius: 10px;
-  // padding: 5px;
-  // width: 280px;
-  // color: #fff;
 }
