@@ -1,0 +1,115 @@
+#careers-heading {
+  width: 100%;
+  margin-bottom: 100px;
+
+  & .careers-heading-text {
+    text-align: center;
+  }
+
+  & .careers-page__sub-title, .careers-page__title{
+    margin: 0 auto;
+    text-align: center;
+  }
+  & .careers-page__title{
+    font-size: 28px;
+    max-width: 1000px;
+    letter-spacing: 4px;
+    @include for-sm-mobiles {
+      font-size: 48px;
+    }
+    @include for-big-mobiles {
+      font-size: 58px;
+    }
+    @include for-desktops {
+      font-size: 78px;
+    }
+  }
+}
+
+.career__body {
+
+  & #careers__form {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+    padding: 16px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 21px 8px rgba(12, 25, 96, 0.19);
+    transform: translateY(-25px);
+    background: #fff;
+    @include for-big-mobiles {
+      padding: 70px;
+    }
+
+    & h3 {
+      font-size: 20px;
+      color: #00a1d6;
+      @include for-big-mobiles {
+        font-size: 30px;
+      }
+    }
+
+    & .apply-group-3, .apply-group-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 260px));
+      margin: 2rem 0;
+      justify-content: space-around;
+
+      & .apply-field {
+        padding: 0 12px;
+        margin-bottom: 16px;
+      }
+
+      & .apply-field>label, .apply-field>select, .radio-container>label {
+        text-align: left;
+        display: block;
+        text-transform: uppercase;
+        color: #0c3a60;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 4px;
+      }
+      & .radio-container>label {
+        display: inline;
+      }
+
+      & .apply-field>input, .apply-field>select {
+        width: 100%;
+        margin-bottom: 16px;
+        padding: 10px 5px;
+        border: 0;
+        background: #e2f3ff;
+      } 
+      & p {
+        font-size: 18px;
+        color: #0C3A60;
+        margin-bottom: 30px;
+        line-height: 120%;
+      }
+    }
+    
+    & #careers-submit__btn {
+      background: #e2f3ff;
+      text-transform: uppercase;
+      font-weight: 600;
+      border: 1px solid #0C3A60;
+      padding: 10px 30px;
+      letter-spacing: 2px;
+      cursor: pointer;
+      transition: all .2s linear;
+      width: 100%;
+      font-size: 14px;
+      margin: 2rem 0;
+      @media (min-width: 468px) {
+        font-size: 16px;
+        width: 400px;
+      }
+      
+      &:hover {
+        background: #0C3A60;
+        color: #fff;  
+        transform: scale(0.98);
+      }
+    }
+  }
+}

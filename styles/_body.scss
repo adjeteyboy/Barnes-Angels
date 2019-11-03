@@ -4,6 +4,12 @@ body {
 // 100: Regular 400, Medium 500, Semi-Bold 600, Bold 700
 
 // MY MIXINS
+@mixin for-sm-mobiles {
+  @media(min-width: 468px) {@content;}
+}
+@mixin for-big-mobiles {
+  @media(min-width: 750px) {@content;}
+}
 @mixin for-mobiles {
   @media(max-width: 999px) {@content;}
 }
@@ -14,6 +20,10 @@ body {
 
 @mixin for-large-displays {
   @media (min-width: 1200px) {@content;}
+}
+
+.hide {
+  display: none;
 }
 
 img {

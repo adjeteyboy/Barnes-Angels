@@ -2,10 +2,10 @@
   background: linear-gradient(0deg, rgba(65,191,239,0.9) 19%, rgba(0,90,156,0.9) 100%);
   padding: 246px 15px 0 15px;
   @include for-desktops {
-    background: linear-gradient(0deg, rgba(65,191,239,0.8) 19%, rgba(0,90,156,0.8) 100%), url(/public/assets/images/banner__bg.jpg);
+    background: linear-gradient(0deg, rgba(65,191,239,0.8) 19%, rgba(0,90,156,0.8) 100%), url('./assets/images/banner__bg.jpg');
     background-size: cover;
-    
   }
+  @include for-mobiles {text-align: center;}
 
   .banner__text {
     @include for-desktops {

@@ -15,8 +15,10 @@ header {
   }
 
   .blueMobileLogo {
-    width: 210px;
+    width: 230px;
     height: auto;
+    top: 8px;
+    position: absolute;
     @include for-desktops{
       display: none;
     }
@@ -26,9 +28,11 @@ header {
     @include for-mobiles{
       display: none;
     }
-    width: 263px;
+    width: 310px;
     height: auto;
     margin-left: 25px;
+    top: -8px;
+    position: absolute;
   }
 
   .menu {
@@ -46,7 +50,7 @@ header {
   top: 90px;
   right: 0;
   width: 240px;
-  height: 280px;
+  height: auto;
   background-color: rgb(1, 124, 165);
   visibility: hidden;
   opacity: 0;
@@ -59,11 +63,19 @@ header {
     flex-direction: column;
     justify-content: space-around;
     margin: 1.5em 0;
+    width: 100%;
+    padding: 0;
     
     & li a {
       color: #fff;
       text-decoration: none;
       font-weight: 600;
+      height: 50px;
+      display: inline-flex;
+      width: 100%;
+      padding-left: 40px;
+      align-items: center;
+      margin-bottom: 8px;
     }
   }
 
@@ -79,11 +91,11 @@ header {
     display: none;
   }
   position: absolute;
-  top: 30px;
+  top: 38px;
   right: 40px;
 
   & a {
-    margin-left: 16px;
+    margin-left: 20px;
     text-decoration: none;
     color: #fff;
     font-weight: 700;
@@ -93,9 +105,71 @@ header {
 
   & #contactBtn {
     background: #41BFEF;
-    width: 125px;
-    height: 37px;
     padding: 9px 12px;
     border-radius: 20px;
+  }
+}
+
+#apply-drop__menu {
+  display: none;
+  left: 0;
+  top: 90px;
+  position: absolute;
+  width: 100%;
+  height: 45px;
+  background: #7CCEEF;
+  @include for-mobiles {
+    display: none;
+  }
+
+  & .apply-drop__menu--center {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    height: 100%; 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    & a {
+      text-decoration: none;
+      color: #0c3a60;
+      font-size: 16px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+    }
+  }
+
+
+  & button {
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 45px;
+    border: 0;
+    font-weight: 900;
+    font-size: 20px;
+    color: #fff;
+    background: #0C3A60;
+    cursor: pointer;
+  }
+}
+
+.fa-angle-down {
+  margin-left: 3px;
+}
+
+#applyDropMenuMobile {
+  display: none;
+
+  & a {
+    height: 40px;
+    display: inline-block;
+    padding-left: 40px;
+    text-decoration: none;
+    color: #fff;
   }
 }

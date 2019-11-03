@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
+  "scripts": {
+    "dev": "parcel dev/index.html",
+    "build": "parcel build dev/index.html --out-dir docs"
+  },
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.23.1"
+  }
+}

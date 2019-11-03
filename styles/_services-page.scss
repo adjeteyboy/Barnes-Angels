@@ -1,0 +1,119 @@
+.service-container {
+  max-width: 1000px;
+  display: flex;
+  margin: 6rem auto;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .service-heading {
+    // background: red;
+    width: 250px;
+    padding-right: 60px;
+    flex: 1 auto;
+
+    & h2 {
+      font-size: 34px; //34 to 60px
+      color:  rgb(12, 58, 96);
+      font-weight: 700;
+      margin-bottom: 40px;
+      line-height: 1em;
+      @include for-sm-mobiles {
+        font-size: 38px;
+      }
+      @include for-big-mobiles {
+        font-size: 46px;
+      }
+      @include for-desktops {
+        font-size: 60px;
+      }
+    }
+
+    & p {
+      color: rgb(88, 122, 150);
+      line-height: 26px;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+
+  .service-list {
+    // background: blue;
+    list-style: none;
+    width: 250px;
+    padding: 0 16px;
+    flex: 1 auto;
+
+    & li {
+      margin-bottom: 20px;
+      padding-left: 20px;
+      line-height: 25.6px;
+      color: rgb(88, 122, 150);
+      position: relative;
+      font-size: 16px;
+      font-weight: 400;
+
+      &::before {
+        left: 0px;
+        top: -2px;
+        content: "+";
+        font-weight: 700;
+        font-size: 24px;
+        color: #00a1d6;
+        position: absolute;
+      }
+    }
+  }
+}
+
+
+.service-container.even .service-list {
+    @media (max-width: 591px) {
+      order: 2;
+    }
+}
+.service-container .service-heading {
+    @media (max-width: 591px) {
+      padding: 0 16px;
+    }
+}
+.service-wrapper {
+  background: linear-gradient(-165deg, #005a9c 40%, rgba(255,255,255,0.7) 140%);
+  @include for-big-mobiles {padding: 50px;}
+  @include for-desktops {padding: 100px;}
+
+  & .service-container.even .service-heading>h2, & .service-container.even .service-heading>p {
+    color: #fff;
+  }
+
+  & li {
+    color: #fff!important;
+  }
+}
+
+.get-started {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6rem;
+  & h6 {
+    margin-bottom: 10px;
+    font-style: italic;
+    color: #00a1d6;
+    font-size: 30px;
+  }
+  & a {
+    font-weight: 600;
+    border: 1px solid #0C3A60;
+    color: #0C3A60;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-top: 1rem;
+    background-color: rgb(226, 243, 255);
+    transition: all 0.2s linear;
+
+    &:hover {
+      background:#0C3A60;
+      color:#fff;
+    }
+  }
+}

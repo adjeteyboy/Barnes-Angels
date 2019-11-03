@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="./assets/icons/barnesFavicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  <link rel="stylesheet" href="main.css">
+  <title>Barnes Angels</title>
+</head>
+
+<body>
+  <header>
+    <div class="blueMobileLogo">
+      <img src="./assets/icons/BARNES_ANGELS-TEXT-RIGHT-BLACK.png" alt="Barnes Angels logo">
+    </div>
+    <div class="whiteDesktopLogo">
+      <img src="./assets/icons/BARNES_ANGELS-TEXT-RIGHT-WHITE.png" alt="Barnes Angels logo">
+    </div>
+    <div id="mobileMenu" class="mobile-menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li style="display: flex;align-items: center;"><a id="applyNowMobile" href="#">Apply Now<i
+              style="margin-left: 60px;color: #fff;" class="fas fa-caret-down"></i></a></li>
+        <div id="applyDropMenuMobile">
+          <a href="applyForCare.html">Apply for Care</a>
+          <a href="careers.html">Apply as a Carer</a>
+          <a href="tel:+123456782022">
+            Talk to an Expert
+            <i class="fas fa-phone" style="margin-left: 10px"></i>
+          </a>
+        </div>
+        <li><a href="contact.html">Contact Us</a> </li>
+      </ul>
+    </div>
+    <div id="desktopMenu">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a id="apply-now" href="#">Apply Now <i class="fas fa-angle-down"></i></a>
+        <a href="contact.html" id="contactBtn">Contact Us</a>
+      </nav>
+
+    </div>
+    <div class="hamburger-icon" id="hamburgerIcon" onclick="toggleMenu()">
+      <div class="hamburger-icon__middle"></div>
+    </div>
+  </header>
+
+  <div id="apply-drop__menu">
+    <div class="apply-drop__menu--center">
+      <a href="applyForCare.html">Apply for Care</a>
+      <a href="careers.html">Apply as a Carer</a>
+      <a href="tel:+123456782022">
+        <i class="fas fa-phone" style="margin-right: 14px"></i>
+        Talk to an Expert</a>
+    </div>
+    <button id="apply-drop__menu--close">X</button>
+  </div>
+
+
+  <section class="banner">
+    <div class="wrapper wrapper-banner">
+      <div class="about-heading">
+        <p>About Barnes Angels</p>
+        <h1>THE WORLD CLASS HOME CARE AGENCY</h1>
+      </div>
+    </div>
+  </section>
+
+  <div class="about-address">
+    <p>
+      Worcester Massachusetts
+    </p>
+    <h6>Barnes Angel Home Care Center</h6>
+  </div>
+
+  <div class="about--content">
+    <div class="about-wrapper">
+      <p>
+        <strong>Giving you the right level of support is our passion</strong>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book.
+      </p>
+      <p>
+        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+        unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+      <p>
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+        literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+        College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+        going through the cites of the word in classical literature, discovered the undoubtable source.
+      </p>
+      <p>Our care is the best in class, We specialize in the very things you need for quality care.</p>
+
+      <ul class="about--content-list">
+        <li>MEAL PREPARATION</li>
+        <li>LIGHT HOUSE KEEPING</li>
+        <li>ASSISTED LIVING</li>
+        <li>HOURLY CARE</li>
+        <li>ERRANDS</li>
+        <li>24 HOURLY CARE</li>
+      </ul>
+
+      <div class="about--content-btns">
+        <a class="about--content-btns-contact" href="contact.html">Contact Us</a>
+        <a class="about--content-btns-tel" href="tel:+13455158403 ">
+          Talk to an Expert
+          <i class="fas fa-phone" style="margin-left: 10px"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="wrapper" id="footer__flex">
+      <div class="footer__logo">
+        <img src="assets/icons/BARNES_ANGELS-TEXT-RIGHT-WHITE.png" alt="Barnes Angels logo">
+      </div>
+      <div class="footer-nav">
+        <ul>
+          <li>About</li>
+          <li>Services</li>
+          <li>Appointment</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div class="footer-address">
+        <h4>Get Care</h4>
+        <ul>
+          <li>We're available 9am - 5pm</li>
+          <li>Tel: 555.555.5555</li>
+          <li>2079 Jerry Toth Drive</li>
+          <li>Unalaska</li>
+          <li>Alaska 99685</li>
+          <li>US</li>
+        </ul>
+      </div>
+      <div class="social">
+        <span class="facebook"><i class="fab fa-facebook-f"></i></span>
+        <span class="twitter"><i class="fab fa-instagram"></i></span>
+      </div>
+    </div>
+    <div class="footer__tab">
+      <div class="wrapper">&copy; 2019 Barnes Angels</div>
+    </div>
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+  <!-- <script defer src="https://www.gstatic.com/firebasejs/6.6.1/firebase-auth.js"></script> -->
+  <!-- <script defer src="https://www.gstatic.com/firebasejs/6.6.1/firebase-firestore.js"></script> -->
+  <script defer src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
+  <script src="../firebase/init.js"></script>
+  <script src="jQuery.js" type="text/javascript"></script>
+  <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

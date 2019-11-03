@@ -1,0 +1,124 @@
+APPLY NOW
+
+
+1.Apply for Care-Basic Application form or questionnaire for clients /or Email us directly
+
+
+2.Apply to give Care/Careers 
+
+*Jobs Available: 
+
+Apply now:
+ABOUT US PAGE
+
+*Redirect to a new page will provide a write brief write out
+
+STEPS OVERVIEW ON HOMEPAGE
+another section on home page must have a step overview.
+
+
+‘’An Angel in three easy steps....’’
+
+1.Call us/book an appointment: our care experts  within your area will give you a call within 24-48hrs of a submitted application 
+
+
+
+2. Schedule a meeting/home visit: We will assign a team to visit your home to meet the family, the patient and answer and sort all all necessary paperwork for a PERSONALIZED care plan
+
+
+
+3.Meet your angel: Based on your requirements and preferences a well suited aide will be made available to arrive at an agreed date to begin providing wonderful and compassionate care to that loved one.
+
+If no testimonials we can have a catching motto to transition at the top...
+
+“.....most call them aides, we simply call them Angels’’.....
+
+SERVICES
+
+Can lead to ‘Whats makes us stand out page/Section ’ and right underneath it should be a huge 
+‘Apply Now’ button
+
+use https://www.nicholsoncenter.com/our-facility/services-offered for services page ideas
+and https://www.nicholsoncenter.com/about-us  there's a list at the end of page
+
+We are here for your comfort
+1. Meal preparation
+	Nothing says I care,  quite like a home-cooked meal. In one carefully prepared package you can offer love, support and nourishment and help to ease the burden at a difficult time.
+Our experts take a lot into consideration while cooking for your loved one like;
+	are there allergy concerns
+	are there food aversions 
+	number of people in the family 
+	Does this particular person enjoy a particular kind of food 
+	Can the food be reheated? or Frozen. Food can be delicate but that is why we are here for you
+
+2. Light House Keeping 
+	You'll definetely agree with me that spending the saturday at the park is better than 
+one spent doing the laundry. Our carers no what to do when you just can't
+	make your bed 
+	empty the dishwasher
+	clean up after each meal 
+	do laundry and others
+
+3. Assisted Living
+	Before we begin our services we scan thoroughly how we can help in the following, keep 
+legal limits 
+	Assisting daily activities
+	Three meals a day program
+	Emergency call system
+	Exercise activities
+	Transportation arrangements	
+4. Hourly Care
+	Hourly care does not mean that the connection will be short. We make sure that your loved one gets these by qualified professionals
+	Personalized care
+	A trusted companion
+	Help with personal hygyiene 
+	Medication and diet in check
+
+	
+5. Errands
+	Knowing whether you need home health care is a good start. Our licensed home aides will provide you with support to get things done and on time.
+	grocery shopping
+	picking up prescriptions
+	taking a pet to the groomer or vet
+	Bill payments
+	Arranging appointments and more
+
+6. 24 hourly Care
+	This will be the best service choice especially if you need a caregiver to be by your loved one at all times 
+
+Emmanuel Asirifi
+Barnes Angels LLC
+17 Renfew Street
+Worcester Massachusetts
++1 (345) 515-8403
+
+"dev": "parcel dev/index.html",
+    "build": "parcel build dev/index.html --out-dir docs"
+
+now working on About Us
+Giving you the right level of support is our passion
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+
+APPLY FOR CARE BTN	TALK TO AN EXPERT PHONE BTN
+
+
+@TODOS
+ABOUT PAGE
+SERVICES PAGE https://www.careexperts.org.au/our-services
+SUBSCRIBERS PROTECTED WITH RECAPTCHA
+APPLY FOR CARE 
+	PROTECTED WITH RECAPTCHA AND EMAIL TRIGGER
+	SEND TO CAREREQUESTS ROUTE AND COLLECTION IN THE DATABASE
+APPLY as CARER 
+	PROTECTED WITH RECAPTCHA AND EMAIL TRIGGER
+	SEND TO APPLICATIONS ROUTE AND COLLECTION IN THE DATABASE
+SET FB CLOUD FUNCTION RULES TO DISABLE DELETING AND ONLY BE READ BY ONE ADMIN ACCOUNT
+ADD MOBILE DROP DOWN
+ENSURE ALL PAGES ARE RESPONSIVE
+ENSURE ALL LINKS IN FOOTER WORK
+ENSURE ALL LINKS IN FOOTER WORK
+

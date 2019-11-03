@@ -1,0 +1,106 @@
+.about-heading {
+  width: 100%;
+  margin-bottom: 50px;
+  & p {
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px; // but 18px. 24px, 36px
+    @include for-sm-mobiles {
+      font-size: 24px;
+    }
+    @include for-big-mobiles {
+      font-size: 36px;
+    }
+  }
+  & h1 {
+    font-size: 28px;
+    text-align: center;
+    margin: 150px auto; 
+    max-width: none;
+    margin-top: 0;
+    line-height: 1;
+    letter-spacing: 4px;
+    @include for-sm-mobiles {
+      font-size: 48px;
+    }
+    @include for-big-mobiles {
+      font-size: 58px;
+    }
+    @include for-desktops {
+      font-size: 78px;
+    }
+  }
+}
+
+.about-address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  padding-top: 0;
+  @include for-big-mobiles {padding-top: 40px;}
+
+  p {
+    color: rgb(88, 122, 150);
+    background: rgb(211, 238, 250);
+    padding: 16px 22px;
+  }
+
+  h6 {
+    font-style: italic;
+    font-size: 24px;
+    margin: 0;
+    color: rgb(0, 161, 214);
+    text-align: center;
+    padding-right: 8px;
+    margin-top: 40px;
+    @include for-sm-mobiles{font-size: 30px;}
+  }
+}
+
+.about--content {
+  font-weight: normal;
+  line-height: 26px;
+  margin: 40px auto 20px auto;
+  padding: 0;
+  max-width: 850px;
+  color: rgb(88, 122, 150);
+  
+  & .about--content-list {
+    list-style: none;
+    padding: 30px 0 0 0;
+
+    li {
+      padding-left: 20px;
+      position: relative;
+      font-weight: 700;
+      color:#00a1d6;
+    }
+
+    li::before {
+      position: absolute;
+      left: 0px;
+      top: -1px;
+      content: "+";
+      font-weight: 700;
+      font-size: 24px;
+      color:#00a1d6;
+    }
+  }
+
+  & .about--content-btns {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+    & .about--content-btns-contact {
+      background: #41BFEF;
+      padding: 9px 16px;
+      border-radius: 20px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 700;
+      margin-right: 2rem;
+    }
+  }
+}

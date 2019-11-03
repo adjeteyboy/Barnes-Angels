@@ -1,0 +1,23 @@
+.form-field {
+  max-width: 230px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+
+  & label {
+    text-align: left;
+    display: block;
+    text-transform: uppercase;
+    color:#0c3a60;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  } 
+
+  & input {
+    margin-bottom: 16px;
+    padding: 10px 5px;
+    background:#e2f3ff;
+    border: 0;
+  }
+}

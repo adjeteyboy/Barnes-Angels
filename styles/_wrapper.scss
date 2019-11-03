@@ -9,3 +9,13 @@
     display: flex;
   }
 }
+
+.about-wrapper   {
+  padding: 2rem;
+  @include for-sm-mobiles {
+    padding: 2.5rem;
+  }
+  @include for-big-mobiles {
+    padding: 3rem;
+  }
+}

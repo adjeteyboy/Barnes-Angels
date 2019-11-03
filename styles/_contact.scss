@@ -1,0 +1,140 @@
+.contact-heading {
+  width: 100%;
+  margin-bottom: 50px;
+  & h1 {
+    font-size: 28px;
+    text-align: center;
+    margin: 150px auto; 
+    margin-top: 0;
+    line-height: 1;
+    letter-spacing: 4px;
+    @include for-sm-mobiles {
+      font-size: 48px;
+    }
+    @include for-big-mobiles {
+      font-size: 58px;
+    }
+    @include for-desktops {
+      font-size: 78px;
+    }
+  }
+}
+
+#contact {  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0px 1px 21px 8px rgba(12,25,96,0.19);
+  transform: translateY(-10%); 
+  margin-bottom: 50px;
+  @include for-big-mobiles {
+    grid-template-columns: 2fr 3fr;
+  }
+
+  & .box1 {
+    background: #0C3A60;
+    padding: 30px; 
+    text-align: left;
+    @include for-big-mobiles {padding: 70px;}
+
+    & h3 {
+      font-size: 16px;
+      color: #00a1d6;
+      margin-bottom: 10px;
+      font-style: italic;
+      @include for-sm-mobiles {font-size: 24px}
+      @include for-big-mobiles {font-size: 32px}
+    }
+    & h2 {
+      font-size: 32px;
+      color: #fff;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      margin-top: 0;
+      @include for-sm-mobiles {font-size: 40px;}
+      @include for-big-mobiles {font-size: 50px;margin-top: 20px;margin-bottom: 40px;}
+    }
+    & h4 {
+      font-size: 20px;
+      color: #00a1d6;
+      margin-top: 0;
+      @include for-sm-mobiles {font-size: 24px}
+      @include for-big-mobiles {font-size: 30px}
+    }
+    & p {
+      font-size: 18px;
+      color: #fff;
+      margin-bottom: 30px;
+      line-height: 120%;
+    }
+    & .contact-care--apply-btn {
+      color: #fff;
+      border: 1px solid #00a1d6;
+      padding: 10px 30px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 600;
+      transition: all .2s linear;
+      &:hover {
+        background: #00a1d6;
+      }
+    }
+  }
+  & .box2 {
+    background: #fff;
+    padding: 40px 30px;
+    @include for-big-mobiles {padding: 70px;}
+
+    & .apply-field, #comment {
+      max-width: 230px;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      @include for-big-mobiles {margin: 0 auto;}
+    }
+
+    & label {
+      text-align: left;
+      display: block;
+      text-transform: uppercase;
+      color: #0c3a60;
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 4px;white-space: nowrap;
+    }
+
+    & input, textarea, select {
+      margin-bottom: 16px;
+      padding: 10px 5px;
+      background: #e2f3ff;
+      border: 0;
+    }
+    & .form--required {
+      color: red;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    & #comment {
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+    & #comment-submit__btn {
+      display: flex;
+      text-transform: uppercase;
+      font-weight: 600;
+      border: 1px solid #0C3A60;
+      padding: 10px 30px;
+      cursor: pointer;
+      margin: auto;
+      transition: all .2s linear;
+      &:hover {
+        background: #0C3A60;
+        color: #fff;
+      }
+    }
+
+  }
+}
