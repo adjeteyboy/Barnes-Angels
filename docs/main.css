@@ -1743,6 +1743,11 @@ footer .footer__tab {
 .about--content .about--content-btns {
   margin-top: 60px;
   margin-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .about--content .about--content-btns .about--content-btns-contact {
@@ -1753,6 +1758,11 @@ footer .footer__tab {
   color: #fff;
   font-weight: 700;
   margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about--content .about--content-btns .about--content-btns-tel {
+  color: #587a96;
 }
 
 .service-container {
