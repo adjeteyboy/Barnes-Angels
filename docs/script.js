@@ -54,8 +54,9 @@ var applyMenu = $('#apply-drop__menu')
 $('#apply-drop__menu--close').click( function() {
   applyMenu.slideUp('fast')
 })
-$('#apply-now').click( function() {
+$('#apply-now').click( function(e) {
   // applyMenu.slideDown('fast')
+  e.preventDefault();
   applyMenu.slideDown();
   console.log(applyMenu)
 })
