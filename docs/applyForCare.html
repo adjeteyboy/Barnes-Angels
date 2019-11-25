@@ -13,7 +13,7 @@
 
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
   <link rel="stylesheet" href="main.css">
-  <title>Apply to be a care giver</title>
+  <title>Apply for care</title>
 </head>
 
 <body>
@@ -48,6 +48,16 @@
     </div>
   </header>
 
+  <div id="apply-drop__menu">
+    <div class="apply-drop__menu--center">
+      <a href="applyForCare.html">Apply for Care</a>
+      <a href="careers.html">Apply as a Carer</a>
+      <a href="tel:+123456782022">
+        <i class="fas fa-phone" style="margin-right: 14px"></i>
+        Talk to an Expert</a>
+    </div>
+    <button id="apply-drop__menu--close">X</button>
+  </div>
 
   <section class="banner">
     <div class="wrapper wrapper-banner">
@@ -60,30 +70,34 @@
     </div>
   </section>
 
-  
-  <form action="https://formspree.io/emmanuelasirifi1993@yahoo.com" method="POST">
 
-    <div class="form-field">
-      <label for="form-name">Name</label>
-      <input id="form-name" type="text" name="Name" placeholder="John Smith" required>
+  <form action="https://formspree.io/emmanuelasirifi1993@yahoo.com" method="POST" id="applyForCare__form">
+    <div class="afc-field-row">
+
+      <div class="form-field">
+        <label for="form-name">Name</label>
+        <input id="form-name" type="text" name="Name"  required>
+      </div>
+
+      <div class="form-field">
+        <label for="form-email">Email</label>
+        <input id="form-email" type="form-email" name="Email" maxlength="254">
+      </div>
     </div>
 
-    <div class="form-field">
-      <label for="form-email">Email</label>
-      <input id="form-email" type="form-email" name="Email" placeholder="yourname@yourmail.com" maxlength="254">
+    <div class="afc-field-row">
+      <div class="form-field">
+        <label for="form-tel">Phone Number</label>
+        <input id="form-tel" type="tel" name="Phone" required>
+      </div>
+
+      <div class="form-field">
+        <label for="form-age">Age of recipient</label>
+        <input id="form-age" type="number" name="Age of recipient" min="0" max="150">
+      </div>
     </div>
 
-    <div class="form-field">
-      <label for="form-tel">Phone Number</label>
-      <input id="form-tel" type="tel" name="Phone" placeholder="000-000-0000" required>
-    </div>
-
-    <div class="form-field">
-      <label for="form-age">Age of recipient</label>
-      <input id="form-age" type="number" name="Age of recipient" min="0" max="150">
-    </div>
-
-    <div class="form-field">
+    <div class="form-field afc-short-msg">
       <label for="form-msg">Short message (300 chars)</label>
       <textarea id="form-msg" cols="0" rows="5" type="text" name="Short message" maxlength="300"
         placeholder="Type a short message here..."></textarea>
@@ -112,10 +126,10 @@
       <div class="footer-address">
         <h4>Get Care</h4>
         <ul>
-          <li>17 Renfew Street</li>
+          <li>01604 Renfrew Street</li>
           <li>Worcester Massachusetts</li>
-          <li>Tel: 345.515.8403 </li>
-          <li>Renfew</li>
+          <li>Tel: +1.345.515.8403</li>
+          <li>Renfrew</li>
           <li>US</li>
         </ul>
       </div>
@@ -140,7 +154,8 @@
   <script type="text/javascript" src="slick/slick.min.js"></script>
 
   <script src="script.js"></script>
-  <script async type="text/javascript" src="//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/a733fe44c64c54961b5d71a5b47b6728a716dbba17d5cdcfbb3cc413cd6b81bb.js"></script>
+  <script async type="text/javascript"
+    src="//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/a733fe44c64c54961b5d71a5b47b6728a716dbba17d5cdcfbb3cc413cd6b81bb.js"></script>
 </body>
 
 </html>

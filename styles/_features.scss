@@ -4,6 +4,9 @@ $padding: 15px;
     margin-bottom: 40vh;
     padding: 150px $padding 0 $padding;
     text-align: center; 
+    @include for-desktops {
+        margin-bottom: 0;
+    }
 
     & h2 {
         color: rgba(12, 58, 96, 0.8);
@@ -85,7 +88,7 @@ $padding: 15px;
     }
 
     & .features__second-img {
-        top: 75%;
+        top: 90%;
         left: 50%;
         transform: translateX(-50%);
         position: absolute;

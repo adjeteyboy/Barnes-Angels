@@ -77,6 +77,11 @@
     box-sizing: border-box;
     margin-bottom: 2rem;
     max-width: 330px;
+    text-decoration: none;
+    transition: .3s linear ;
+    &:hover {
+      transform: scale(1.05);
+    }
 
     & .service__card-img {
       width: 265px;
