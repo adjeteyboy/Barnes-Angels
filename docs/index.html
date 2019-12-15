@@ -12,6 +12,7 @@
   <link rel="stylesheet" type="text/css" href="slick/slick.css" />
 
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  <link href="aos.css" rel="stylesheet">
   <link rel="stylesheet" href="main.css">
   <title>Barnes Angels</title>
 </head>
@@ -28,7 +29,8 @@
       <ul>
         <li><a href="about.html">About</a></li>
         <li><a href="services.html">Services</a></li>
-        <li style="display: flex;align-items: center;"><a id="applyNowMobile" href="#">Apply Now<i style="margin-left: 60px;color: #fff;" class="fas fa-caret-down"></i></a></li>
+        <li style="display: flex;align-items: center;"><a id="applyNowMobile" href="#">Apply Now<i
+              style="margin-left: 60px;color: #fff;" class="fas fa-caret-down"></i></a></li>
         <div id="applyDropMenuMobile">
           <a href="applyForCare.html">Apply for Care</a>
           <a href="careers.html">Apply as a Carer</a>
@@ -65,20 +67,38 @@
     </div>
     <button id="apply-drop__menu--close">X</button>
   </div>
-  
+
   <section class="banner">
-    <div class="wrapper wrapper-banner">
-      <div class="banner__text">
-        <p>You won't always be there, we will!</p>
-        <h1>Get expert, person-centred approach to keep seniors safe and sound at home</h1>
-      </div>
-      <div class="banner__img">
-        <img sizes="(max-width: 611px) 100vw, 611px" srcset="
-                ./assets/images/humanCrop_vowc9g_c_scale_w_320.png 320w,
-                ./assets/images/humanCrop_vowc9g_c_scale_w_436.png 436w,
-                ./assets/images/humanCrop_vowc9g_c_scale_w_533.png 533w,
-                ./assets/images/humanCrop_vowc9g_c_scale_w_611.png 611w"
-          src="./assets/images/humanCrop_vowc9g_c_scale_w_611.png" alt="helping nurse and patient">
+    <div class="wrapper">
+      <div id="banner__slick"> 
+        <div class="banner__slick--item"> 
+          <div class="banner__text">
+            <p>You won't always be there, we will!</p>
+            <h1>Get expert, person-centred approach to keep seniors safe and sound at home</h1>
+          </div>
+          <div class="banner__img">
+            <img sizes="(max-width: 611px) 100vw, 611px" srcset="
+                    ./assets/images/humanCrop_vowc9g_c_scale_w_320.png 320w,
+                    ./assets/images/humanCrop_vowc9g_c_scale_w_436.png 436w,
+                    ./assets/images/humanCrop_vowc9g_c_scale_w_533.png 533w,
+                    ./assets/images/humanCrop_vowc9g_c_scale_w_611.png 611w"
+              src="./assets/images/humanCrop_vowc9g_c_scale_w_611.png" alt="helping nurse and patient">
+          </div>
+        </div>
+
+        <div class="banner__slick--item">
+          <div class="banner__text">
+            <p>Most call them aides</p>
+            <h1>We simply call them Angels</h1>
+          </div>
+          <div class="banner__img img-fix">
+            <img sizes="(max-width: 683px) 100vw, 683px" srcset="
+              ./assets/images/male_snr.png 248w,
+              ./assets/images/male_snr-small.png 308w,
+              ./assets/images/male_snr-medium.png 361w" src="male_snr-CROPPED_hp22hz_c_scale,w_683.jpg" alt="male snr">
+              <!-- <img src="./assets/images/male_snr-medium.png" alt="male snr"> -->
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -87,9 +107,11 @@
     <main>
       <a id="main-content"></a>
       <section class="services">
-        <img class="services__logo" src="./assets/icons/BARNES_ANGELS-TEXT-RIGHT.png" alt="Barnes Angel logo">
-        <h2>What makes us stand out</h2>
-        <p class="services__paragraph">Barnes Angel's programs ensures dignified and compassionate care for your loved
+        <img data-aos="zoom-in" class="services__logo" src="./assets/icons/BARNES_ANGELS-TEXT-RIGHT.png"
+          alt="Barnes Angel logo">
+        <h2 data-aos="zoom-in">What makes us stand out</h2>
+        <p data-aos="zoom-out-right" class="services__paragraph">Barnes Angel's programs ensures dignified and
+          compassionate care for your loved
           one so they can remain independent in their home.</p>
 
         <div class="service__slick">
@@ -138,15 +160,20 @@
   </div>
 
   <section class="features">
-    <h2>That's why our caretakers are here for you</h2>
+    <h2 data-aos="zoom-in">That's why our caretakers are here for you</h2>
     <div id="features__grid-container">
       <img src="./assets/images/senior_in_wheelchair.jpg" alt="senior in wheelchair" class="features__main-img">
       <section>
         <h3>An Angel in three easy steps...</h3>
         <ul>
-          <li><strong>Call us/book an appointment:</strong> our care experts  within your area will give you a call within 24-48hrs of a submitted application</li>
-          <li><strong>Schedule a meeting/home visit:</strong> We will assign a team to visit your home to meet the family, the patient and answer and sort all all necessary paperwork for a PERSONALIZED care plan            </li>
-          <li><strong>Meet your angel:</strong> Based on your requirements and preferences a well suited aide will be made available to arrive at an agreed date to begin providing wonderful and compassionate care to that loved one.</li>
+          <li data-aos="zoom-in"><strong>Call us/book an appointment:</strong> our care experts within your area will
+            give you a call within 24-48hrs of a submitted application</li>
+          <li data-aos="zoom-in"><strong>Schedule a meeting/home visit:</strong> We will assign a team to visit your
+            home to meet the family, the patient and answer and sort all all necessary paperwork for a PERSONALIZED care
+            plan </li>
+          <li data-aos="zoom-in"><strong>Meet your angel:</strong> Based on your requirements and preferences a well
+            suited aide will be made available to arrive at an agreed date to begin providing wonderful and
+            compassionate care to that loved one.</li>
         </ul>
         <div class="features__second-img">
           <img sizes="(max-width: 380px) 280px" srcset="
@@ -219,8 +246,10 @@
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
   <script type="text/javascript" src="slick/slick.min.js"></script>
 
+  <script src="aos.js"></script>
   <script src="script.js"></script>
-  <script async type="text/javascript" src="//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/a733fe44c64c54961b5d71a5b47b6728a716dbba17d5cdcfbb3cc413cd6b81bb.js"></script>
+  <script async type="text/javascript"
+    src="https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/e44443d5fd786c9fabc4c01bff9b74e1fc666c9d034b0f8770ec59593dd7c986.js"></script>
 </body>
 
 </html>

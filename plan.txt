@@ -3,23 +3,33 @@ CHECK ALL MOBILE MENU LINKS
 MAKE MOBILE LOGO CLICKABLE
 
 *******CHANGES AND ADDITIONS*******
-The gap 
-apply for care page style not loading
-phone number and RENFREW 01604 change on contact page too
+The gap  				check
+apply for care page style not loading   check
+phone number and RENFREW 01604 change on contact page too 		check
 
 most call them aides, we simply call them Angels’ should be first
 you wont always be there should change --- ..... should be 2nd
 
 services on homepage
-on highlight should scale up and should lead to the APPLY NOW PAGE
+on highlight should scale up and should lead to the APPLY NOW PAGE   check
 
 SERVICE TITLE SHOUDL change to actual service title and lead to the page 
-with a read more or a link
+with a read more or a link							check
 
-service steps should go to 'Our Caretakers will..' section
+service steps should go to 'Our Caretakers will..' section  			CHECK
+compress assets esp images
+slick on banner 
+animate css
+change all email across the site *check*
+make the live chat work with the email *check*
+add domain
+ANIMATIONS EVERYWHERE      *check*
 
-ANIMATIONS EVERYWHERE
+Barnesangels3@gmail.com
 
+Password: Angels@2019
+userlike Username: barnesangel
+userlike Password: angelshere
 
 APPLY NOW
 

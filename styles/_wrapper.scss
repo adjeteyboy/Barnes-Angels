@@ -4,11 +4,9 @@
   max-width: 1400px;
 }
 
-.wrapper-banner {
-  @include for-desktops {
-    display: flex;
-  }
-}
+// .wrapper-banner {
+
+// }
 
 .about-wrapper   {
   padding: 2rem;

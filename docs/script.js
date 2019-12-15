@@ -37,6 +37,13 @@ $(document).ready(function(){
       // instead of a settings object
     ]
   });
+  $('#banner__slick').slick({
+    autoplay: true,
+    autoplaySpeed: 2000,
+    dots: false,
+    arrows: false,
+    infinite: true
+  });
 });
 
 var menu = document.getElementById('mobileMenu');
