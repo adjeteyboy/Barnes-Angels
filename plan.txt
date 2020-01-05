@@ -7,7 +7,7 @@ The gap  				check
 apply for care page style not loading   check
 phone number and RENFREW 01604 change on contact page too 		check
 
-most call them aides, we simply call them Angels’ should be first
+most call them aides, we simply call them Angelsï¿½ should be first
 you wont always be there should change --- ..... should be 2nd
 
 services on homepage
@@ -18,12 +18,12 @@ with a read more or a link							check
 
 service steps should go to 'Our Caretakers will..' section  			CHECK
 compress assets esp images
-slick on banner 
-animate css
+animate css	check
 change all email across the site *check*
 make the live chat work with the email *check*
-add domain
 ANIMATIONS EVERYWHERE      *check*
+add domain
+slick on banner
 
 Barnesangels3@gmail.com
 
@@ -46,11 +46,15 @@ ABOUT US PAGE
 
 *Redirect to a new page will provide a write brief write out
 
+185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153
 STEPS OVERVIEW ON HOMEPAGE
 another section on home page must have a step overview.
 
 
-‘’An Angel in three easy steps....’’
+ï¿½ï¿½An Angel in three easy steps....ï¿½ï¿½
 
 1.Call us/book an appointment: our care experts  within your area will give you a call within 24-48hrs of a submitted application 
 
@@ -64,12 +68,12 @@ another section on home page must have a step overview.
 
 If no testimonials we can have a catching motto to transition at the top...
 
-“.....most call them aides, we simply call them Angels’’.....
+ï¿½.....most call them aides, we simply call them Angelsï¿½ï¿½.....
 
 SERVICES
 
-Can lead to ‘Whats makes us stand out page/Section ’ and right underneath it should be a huge 
-‘Apply Now’ button
+Can lead to ï¿½Whats makes us stand out page/Section ï¿½ and right underneath it should be a huge 
+ï¿½Apply Nowï¿½ button
 
 use https://www.nicholsoncenter.com/our-facility/services-offered for services page ideas
 and https://www.nicholsoncenter.com/about-us  there's a list at the end of page
@@ -154,4 +158,32 @@ ADD MOBILE DROP DOWN
 ENSURE ALL PAGES ARE RESPONSIVE
 ENSURE ALL LINKS IN FOOTER WORK
 ENSURE ALL LINKS IN FOOTER WORK
+
+611x378
+533x330
+436x260
+320x190
+
+312gh 17th Nov
+258gh 23rd Sept
+
+
+<img
+sizes="(max-width: 611px) 100vw, 611px"
+srcset="
+barnespicb-removebg_ngneib_c_scale,w_320.png 320w,
+barnespicb-removebg_ngneib_c_scale,w_458.png 458w,
+barnespicb-removebg_ngneib_c_scale,w_574.png 574w,
+barnespicb-removebg_ngneib_c_scale,w_611.png 611w"
+src="barnespicb-removebg_ngneib_c_scale,w_611.png"
+alt="">
+
+banner transition is too fast fix
+fix spacing in-between pages  
+image on banner 
+add animation to services on homepage
+fix the animations 
+change address   * check *
+second font lines on banner should glow maybe different color if silver gradient possible
+link the footer social icons... whatsapp facebook   * check *
 

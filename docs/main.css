@@ -1309,6 +1309,8 @@ footer .footer__tab {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 50%;
+  text-decoration: none;
+  color: #fff;
 }
 
 .contact-heading {
@@ -1756,6 +1758,10 @@ footer .footer__tab {
   color: #587a96;
   background: #d3eefa;
   padding: 16px 22px;
+}
+
+.about-address p .underline {
+  text-decoration: underline;
 }
 
 .about-address h6 {

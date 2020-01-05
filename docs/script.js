@@ -39,7 +39,7 @@ $(document).ready(function(){
   });
   $('#banner__slick').slick({
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 4500,
     dots: false,
     arrows: false,
     infinite: true
