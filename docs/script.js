@@ -106,9 +106,9 @@ function sendSubscriberToFb(e) {
       subscribeForm.style.display = "none"
     }
   });
-
 }
 
+document.querySelector('#applyNowMobile').addEventListener('click', e => {e.preventDefault()})
 
 document.getElementById('subcribeForm').addEventListener('submit', sendSubscriberToFb)
 
