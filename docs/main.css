@@ -1267,6 +1267,7 @@ footer ul {
   line-height: 150%;
   text-decoration: none;
   color: #fff;
+  width: 200px;
 }
 
 footer .footer__tab {
@@ -1444,7 +1445,7 @@ footer .footer__tab {
   font-size: 18px;
   color: #fff;
   margin-bottom: 30px;
-  line-height: 120%;
+  line-height: 140%;
 }
 
 #contact .box1 .contact-care--apply-btn {
@@ -1790,14 +1791,20 @@ footer .footer__tab {
 }
 
 .about--content img#founder__img {
-  width: 300px;
+  width: 150px;
   float: left;
-  margin-right: 1.5rem;
+  margin-right: 1rem;
   margin-bottom: .6rem;
   border: 3px solid #398bbaeb;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 2px;
+}
+
+@media (min-width: 750px) {
+  .about--content img#founder__img {
+    margin-right: 1.5rem;
+  }
 }
 
 .about--content .about--content-list {

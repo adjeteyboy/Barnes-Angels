@@ -70,13 +70,15 @@
   color: rgb(88, 122, 150);
 
   img#founder__img {
-    width: 300px;
+    width: 150px;
     float: left;
-    margin-right: 1.5rem;
+    margin-right: 1rem;
     margin-bottom: .6rem;
     border: 3px solid #398bbaeb;
     box-sizing: border-box;
     border-radius: 2px;
+
+    @include for-big-mobiles {margin-right: 1.5rem;}
   }
   
   & .about--content-list {
